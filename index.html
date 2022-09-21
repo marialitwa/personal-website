@@ -4,62 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Website</title>
+    <title>CV | Maria Litwa</title>
   </head>
-
-  <body>
-    <header>
-      <h1>Jane Doe</h1>
-      <!--Which elements could be used to link to parts of the webpage,
-		which appear below?-->
-      <nav id="nav">
-        <a href="#">About Me</a>
-        <a href="#">Contact</a>
-        <a href="#">Skillset</a>
-      </nav>
-    </header>
-    <!--Looks like the following part is the central content of our webpage.-->
-    <main>
-      <section id="about-me">
-        <h3>About me</h3>
-        <p>
-          Hi there! Welcome to my personal website. Here is gathered the most
-          important information about me. If you want to work with me or get to
-          know me, please don't hesitate to get in contact.
-        </p>
-        <!--What element could be used to combine an image with a descriptive caption?-->
-        <figure>
-          <img
-            src="https://source.unsplash.com/random/400x300?fruit"
-            alt="a random picture"
-          />
-          <figcaption>
-            A random picture, because I would like to maintain my privacy and
-            let my code speak for me, instead of images.
-          </figcaption>
-        </figure>
-      </section>
-
-      <section id="contact">
-        <h3>Contact</h3>
-        <!--When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working?-->
-        <a href="https://github.com/neuefische">GitHub</a>
-        <a href="https://de.linkedin.com/">LinkedIn</a>
-        <a href="https://codesandbox.io/">CodeSandbox</a>
-      </section>
-
-      <section id="skills">
-        <h3>Skillset</h3>
-        <!--This part could use some bulletpoint to be more structured-->
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Painting rainbows</li>
-          <li>Party</li>
-        </ul>
-      </section>
-    </main>
-  </body>
 </html>
+
+<body>
+  <header>
+    <figure>
+      <img
+        src="https://source.unsplash.com/random/400x300?coding"
+        alt="a random picture"
+      />
+      <figcaption>A nice random picture about coding</figcaption>
+    </figure>
+
+    <h1>Maria Litwa</h1>
+    <div class="devider-line-header"></div>
+    <nav>
+      <a href="#">Summary</a>
+      <a href="#">Experience</a>
+      <a href="#">Education</a>
+      <a href="#">Skills</a>
+    </nav>
+  </header>
+
+  <main>
+    <h3>Summary</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+      amet.
+    </p>
+
+    <section id="experience">
+      <h3>Experience</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam
+      </p>
+    </section>
+
+    <section id="education">
+      <h3>Education</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam
+      </p>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Photography</li>
+        <li>Photo Editing</li>
+        <li>Design</li>
+        <li>Yoga</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- // FOOTER & CONTACT DETAILS -->
+
+  <footer>
+    <div class="devider-line-footer"></div>
+    <section id="contact-details">
+      <p>Phone Number</p>
+      <p>Adress</p>
+    </section>
+  </footer>
+</body>
